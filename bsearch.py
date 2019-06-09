@@ -2,7 +2,7 @@
 def binarysearch(ar,b,l,num): 
       while b <= l:   
         mid = (l+b)//2;  
-        # Check if x is present at mid 
+        # Check if the number is present at mid 
         if ar[mid] == num: 
             return mid 
         elif ar[mid] < num: 
